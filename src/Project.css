@@ -1,0 +1,52 @@
+.white-space{
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    background-color: #fff;
+}
+.project-body{
+    background-color: #1f2022;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.project-title{
+    padding-inline: 75px;
+    color: #fff;
+    margin-top: 50px;
+    line-height: 3em;
+
+}
+.project-title h2{
+    font-size: 1.5rem;
+}
+.project-title h1{
+    font-size: 3rem;
+    font-weight: 200;
+    
+}
+
+.project-container{
+    display: flex;
+}
+
+.image-container {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    padding-inline: 75px;
+    margin-top: 50px;
+
+}
+.image-div img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.image-div{
+    width: 377px;
+        height: 542px;
+}
+
