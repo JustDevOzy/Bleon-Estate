@@ -13,7 +13,7 @@
     margin-top: 50px;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-    margin-bottom: 100%;
+    
 }
 
 .finds--card-svg {

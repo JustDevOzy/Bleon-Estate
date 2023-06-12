@@ -9,7 +9,7 @@ import Whatwedo from "./Component/section/Whatwedo"
 import "./whatwedo.css"
 import Divider from "./Component/Divider"
 import "./divider.css"
-import myservice from "./Component/myservice"
+import Myservice from "./Component/myservice"
 import "./service.css"
 
 function App() {
@@ -21,6 +21,8 @@ function App() {
 			<Project />
 			<Divider />
 			<Whatwedo />
+			<Divider />
+			<Myservice />
 		</>
 	)
 }
