@@ -11,6 +11,7 @@ function App() {
 		<>
 			<Navbar />
 			<Home />
+			<div className="white-space"></div>
 			<Project />
 		</>
 	)

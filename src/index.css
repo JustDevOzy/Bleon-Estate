@@ -3,6 +3,16 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color:white;
 }
 
 
+.contain {
+    padding-inline: 10%;
+}
+
+@media screen and (max-width: 768px) {
+    .contain {
+        padding: 2em;
+    }
+}
