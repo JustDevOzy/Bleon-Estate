@@ -1,0 +1,46 @@
+
+.finds>h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 200;
+    font-size: 4rem;
+    letter-spacing: .2rem;
+}
+
+.finds--cards {
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    margin-bottom: 100%;
+}
+
+.finds--card-svg {
+    width: 120px;
+    height: 120px;
+    color: white;
+}
+
+.finds--card,
+.finds--card .finds--card-body {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    place-content: center;
+    margin-top: 40px;
+}
+
+.finds--card {
+    min-width: 310px;
+    background-color: #fefefe;
+    color: black;
+    padding: 30px;
+    scroll-snap-align: start;
+}
+
+.finds--card-body p {
+    margin-top: 20px;
+    font-weight: 300;
+    text-align: center;
+}

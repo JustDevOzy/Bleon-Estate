@@ -5,14 +5,20 @@ import Home from "./Component/Home"
 import "./Home.css"
 import Project from "./Component/Project"
 import "./Project.css"
+import Whatwedo from "./Component/section/Whatwedo"
+import "./whatwedo.css"
+import Divider from "./Component/Divider"
+import "./divider.css"
 
 function App() {
 	return (
 		<>
 			<Navbar />
 			<Home />
-			<div className="white-space"></div>
+			<Divider />
 			<Project />
+			<Divider />
+			<Whatwedo />
 		</>
 	)
 }
