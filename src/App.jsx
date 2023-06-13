@@ -11,6 +11,10 @@ import Divider from "./Component/Divider"
 import "./divider.css"
 import Myservice from "./Component/myservice"
 import "./service.css"
+import FAQ from "./Component/FAQ"
+import "./FAQ.css"
+import Footer from "./Component/Footer"
+import "./footer.css"
 
 function App() {
 	return (
@@ -23,6 +27,10 @@ function App() {
 			<Whatwedo />
 			<Divider />
 			<Myservice />
+			<Divider />
+			<FAQ />
+			<Divider />
+			<Footer />
 		</>
 	)
 }
